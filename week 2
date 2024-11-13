@@ -1,0 +1,37 @@
+Devops for AI
+
+Name : Mohammed Sufyan
+USN : 23BTRCL056
+Branch : CSE
+Course : AIML
+                    
+WEEK 2
+
+Explore Git and GitHub Commands.
+GitHub is a web-based platform primarily used for version control and collaborative software development. It builds on Git, an open-source version control system, to allow developers to track and manage changes to their codebase. GitHub enables multiple people to work on projects simultaneously, handling merges, revisions, and potential conflicts in the code.
+Key features include:
+
+1) Repositories (Repos): Central locations where code and files are stored.
+2) Branches: Separate versions of a repository for working on new features or fixes without altering the main code.
+3) Pull Requests: Proposals for merging changes from one branch to another, often reviewed by team members.
+4) Issues and Projects: Tools for tracking tasks, bugs, and project progress.
+With its collaborative tools and integration capabilities, GitHub is widely used by developers, teams, and open-source projects.
+
+ 1)  Setup Commands
+	git init: Initialize a new Git repository.
+	git clone [URL]: Copy an existing repository from GitHub to your local machine.
+ 2)  Basic Workflow Commands
+	git add [file]: Stage changes (new files or modifications) to be committed.
+	git commit -m "[message]": Commit staged changes with a descriptive message.
+	git push: Upload local commits to GitHub.
+	git pull: Fetch and merge changes from GitHub into your local repository.
+ 3)  Branching and Merging
+	git branch [branch-name]: Create a new branch.
+	git checkout [branch-name]: Switch to a different branch.
+	git merge [branch-name]: Merge changes from another branch into the current branch.
+ 4)  Status and Logs
+	git status: Check the status of your working directory.
+	git log: View commit history.
+ 5)  Undoing Changes
+	git reset [commit]: Undo commits, moving changes back to the staging area.
+	git revert [commit]: Create a new commit that undoes a specified commit.
